@@ -48,6 +48,28 @@ img {
 	vertical-align: middle;
 }
 
+.section-heading {
+	position: relative;
+	margin: 0 0 60px 0;
+	padding-left: 24px;
+	font-family: 'Quattrocento Sans', Verdana, sans-serif;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #292f36;
+}
+
+.section-heading::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	width: 10px;
+	height: 35px;
+	background-color: #e1e6ea;
+}
+
 /*HEADER*/
 
 .main-header {
@@ -157,27 +179,6 @@ img {
 	padding: 80px 0 100px 0;
 }
 
-.about-heading {
-	position: relative;
-	margin: 0 0 60px 0;
-	padding-left: 24px;
-	font-family: 'Quattrocento Sans', Verdana, sans-serif;
-	font-size: 36px;
-	line-height: 42px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #292f36;
-}
-
-.about-heading::before {
-	position: absolute;
-	left: 0;
-	top: 0;
-	content: '';
-	width: 10px;
-	height: 35px;
-	background-color: #e1e6ea;
-}
 
 .about-columns {
 	display: flex;
@@ -266,4 +267,122 @@ img {
 	text-align: center;
 	background-color: #39a493;
 	color: #ffffff;
+}
+/*END ABOUT*/
+/*OUR TEAM*/
+
+.members-section {
+	padding: 80px 0 100px 0;
+}
+
+.members-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.members-item {
+  position: relative;
+  width: 260px;
+  height: 374px;
+  background-color: rgb(225, 230, 234);
+}
+
+.members-item img {
+	display: block;
+}
+
+.members-item:hover {
+  transition: 1s ease-in-out;
+}
+
+.members-figure {
+  padding: 0;
+  margin: 0;
+}
+
+.members-description {
+  padding: 15px 0 15px 20px;
+  font-family: 'Quattrocento Sans', Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #292f36;
+}
+.members-description span {
+  font-family: 'Open Sans', Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #8d8f92;
+}
+
+.members-item:hover img  {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.members-item:hover figcaption  {
+  background-color: #3a454d;
+  color: #ffffff;
+  transition: 0.4s ease-in-out;
+}
+
+.members-item:hover span {
+	color: #ffffff;
+}
+
+
+.members-second-list {
+  list-style: none;
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 125px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  
+}
+.second-list-item {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: #3a454d;
+  vertical-align: middle;
+}
+
+.members-item:hover .members-second-list {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.3s ease-out all;
+}
+
+.second-list-link {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+}
+
+.second-list-link:hover {
+	background-color: #4e5a62;
+}
+
+.social-link-tw {
+	background-image: url(../img/tw-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.social-link-fb {
+	background-image: url(../img/fb-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
