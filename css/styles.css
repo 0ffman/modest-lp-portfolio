@@ -276,7 +276,7 @@ img {
 }
 
 .members-list {
-  margin: 0 -15px;
+  margin: 0 -16px;
   padding: 0;
   list-style: none;
   display: flex;
@@ -389,6 +389,12 @@ img {
 	background-position: center center;
 }
 
+.social-link-in {
+	background-image: url(../img/linkedin-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 /* WORK */
 
 .work-section {
@@ -405,7 +411,7 @@ img {
 }
 
 .work-list {
-  margin: 0;
+  margin: 0 -16px;
   padding: 0;
   list-style: none;
   display: flex;
@@ -416,6 +422,13 @@ img {
 .work-item {
   position: relative;
   margin-bottom: 30px;
+  width: calc(33% - 32px);
+  margin: 16px;
+  margin-bottom: 5px;
+}
+
+.work-item img {
+	display: block;
 }
 
 .work-item:hover {
