@@ -515,3 +515,17 @@ img {
   	opacity: 1;
   	transition: 0.3s ease-out all;
 }
+
+.work-btn {
+	display: inline-block;
+	padding: 6px 21px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	text-transform: uppercase;
+	font-family: 'Quattrocento Sans', Verdana, sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 700;
+	border-radius: 3px;
+	vertical-align: middle;
+}
