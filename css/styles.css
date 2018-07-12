@@ -426,6 +426,11 @@ img {
   margin: 0;
 }
 
+.work-item:hover img  {
+  opacity: 0.5;
+  transition: 0.4s ease-in-out;
+}
+
 .work-description {
   font-family: 'Quattrocento Sans', Verdana, sans-serif;
   font-size: 16px;
@@ -439,7 +444,6 @@ img {
   bottom: 0;
   margin: 0;
   padding: 15px 0 15px 20px;
-  text-align: center;
   visibility: hidden;
   opacity: 0;
   transform: translateY(10px);
@@ -452,10 +456,10 @@ img {
   transform: translateY(0);
   transition: 0.3s ease-out all;
   background-color: #292f36;
-  transition: 0.4s ease-in-out;
+  
 }
 
-.amount-btn {
+.plus-btn {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -469,24 +473,32 @@ img {
   color: #a9a9a9;
   border: none;
   transform: translate(-50%);
+  visibility: hidden;
+  opacity: 0;
 }
 
-.amount-btn-plus::before,
-.amount-btn-plus::after {
+.plus-btn::before,
+.plus-btn::after {
   position: absolute;
-  left: 12px;
+  left: 10px;
   top: 50%;
   content: '';
-  width: 15px;
-  height: 5px;
+  width: 20px;
+  height: 4px;
   background-color: #ffffff;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.amount-btn-plus::after {
+.plus-btn::after {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
   top: 46%;
+}
+
+.work-item:hover .plus-btn {
+	visibility: visible;
+  	opacity: 1;
+  	transition: 0.3s ease-out all;
 }
