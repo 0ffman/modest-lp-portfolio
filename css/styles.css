@@ -632,17 +632,16 @@ img {
 }
 
 .services-icon-cogs::before {
-	background-image: url(../img/cogs.svg);
+	background-image: url(../img/cogs.png);
 }
 .services-icon-pencil::before {
-	background-image: url(../img/pencil.svg);
+	background-image: url(../img/pencil.png);
 }
 .services-icon-mobile::before {
-	width: 30px;
-	background-image: url(../img/mobile.svg);
+	background-image: url(../img/mobile.png);
 }
 .services-icon-clock::before {
-	background-image: url(../img/clock.svg);
+	background-image: url(../img/clock.png);
 }
 
 .services-heading {
