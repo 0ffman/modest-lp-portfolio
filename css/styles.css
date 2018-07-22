@@ -541,7 +541,7 @@ img {
 }
 
 .members-heading {
-	margin-bottom: 160px;
+	margin-bottom: 85px;
 }
 
 .services-list {
@@ -555,18 +555,19 @@ img {
 .services-item {
 	position: relative;
 	width: calc(25% - 28px);
-	margin: 0 14px 165px 14px;
+	margin: 0 14px 90px 14px;
+	text-align: center;
 }
 
 .services-item::before {
-	position: absolute;
+	position: relative;
 	content: '';
+	display: inline-block;
 	width: 48px;
 	height: 48px;
-	top: -78px;
-	left: 50%;
-	transform: translateX(-50%);
+	margin-bottom: 30px;
 	background-repeat: no-repeat;
+	vertical-align: top;
 }
 
 .services-icon-cogs::before {
@@ -589,12 +590,11 @@ img {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #292f36;
-	text-align: center;
+	color: #292f36;	
 }
 
 .services-text {
-	text-align: center;
+	font-size: 16px;
 	margin: 0;
 }
 
