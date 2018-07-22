@@ -771,3 +771,46 @@ img {
 	border: none;
 	cursor: pointer;
 }
+
+/*FOOTER*/
+
+.main-footer {
+	padding: 40px 0;
+	background-color: #3a454d;
+}
+
+.main-footer-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-copyright {
+	margin: 0;
+	color: #ffffff;
+}
+
+.footer-social {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	margin-left: auto;
+	padding: 0;
+	list-style: none;
+}
+
+
+.social-link {
+	display: block;
+	width: 33px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.social-link-be {
+	background-image: url(../img/behance-icon.svg);
+}
+
+.social-link-sk {
+	background-image: url(../img/skype-icon.svg);
+}
