@@ -211,6 +211,10 @@ img {
   background: none;
 }
 
+button.swiper-pagination-bullet {
+  border: 2px solid #fff;
+}
+
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 6px;
 }
