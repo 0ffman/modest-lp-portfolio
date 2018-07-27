@@ -1,5 +1,5 @@
 body {
-  min-width: 1160px;
+/*  min-width: 1160px;*/
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', Verdana, sans-serif;
@@ -74,7 +74,7 @@ img {
 /*HEADER*/
 
 .main-header {
-  padding: 26px 0;
+  padding: 20px 0;
   background-color: #1d2126;
 }
 
@@ -85,6 +85,8 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 .main-list {
@@ -125,6 +127,17 @@ img {
   border-radius: 2px;
 }
 
+.btn-toggle {
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  background-image: url(../img/menu-icon.png);
+  background-repeat: no-repeat;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
 
 /* END HEADER*/
 
@@ -960,3 +973,42 @@ button.swiper-pagination-bullet {
   background-image: url(../img/skype-icon.svg);
 }
 
+@media screen and (max-width: 767px) {
+  
+  .container {
+    width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .main-header {
+    padding: 10px 0;
+  }
+
+  .main-list {
+    display: none;
+    flex-direction: column;
+    width: 40%;
+    padding: 10px;
+    position: absolute;
+    top: 56px;
+    right: 10px;
+    background-color: #eee;
+    z-index: 2;
+  }
+
+  .main-list li {
+    margin-bottom: 3px;
+  }
+
+  .main-list a,
+  .main-list a:hover {
+    color: #000000;
+  }
+
+  .btn-toggle {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+}
