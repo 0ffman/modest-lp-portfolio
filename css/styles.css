@@ -1178,4 +1178,62 @@ button.swiper-pagination-bullet {
     padding-right: 12px;
   }
 
+  /*CONTACT*/ 
+  .contact-section {
+    padding-top: 30px;
+  }
+  
+  .contact-heading {
+    width: auto;
+  }
+  .contact-map {
+    margin-bottom: 30px;
+  }
+  .contact-columns {
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .contact-column {
+    width: 100%;
+  }
+  .contact-column-right {
+    margin-top: 10px;
+  }
+  .contact-heading-inner {
+    margin-bottom: 20px;
+  }
+  .contact-text {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .contact-column form {
+    position: static;
+    width: auto;
+    padding: 10px 10px 0 10px
+  }
+
+  .form-text {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .form-name, .form-email {
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+  .contact-column label {
+    font-weight: 400;
+  }
+
+  .form-button-send {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+  }
+
 }
