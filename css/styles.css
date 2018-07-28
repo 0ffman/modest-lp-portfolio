@@ -1045,6 +1045,62 @@ button.swiper-pagination-bullet {
   bottom: 15px;
   left: auto;
   width: auto;
-}
+  }
+
+  .section-heading {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  .about-section {
+    padding: 30px 0 30px 0;
+  }
+
+  .about-text {
+    margin: 0 0 17px 0;
+    padding-right: 15px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .about-columns {
+    flex-direction: column;
+  }
+
+  .about-social {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    width: auto;
+    margin-top: 0;
+    padding-right: 20px;
+  }
+  .social-btn {
+    width: 50px;
+    height: 50px;
+  }
+
+  .about-list {
+    width: auto;
+  }
+
+  .about-list-item {
+    margin-bottom: 10px;
+  }
+
+  .about-list .about-list-heading {
+    font-weight: 400;
+    padding-right: 15px;
+  }
+
+  .about-list .about-list-text {
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 20px;
+  }
 
 }
