@@ -1011,4 +1011,40 @@ button.swiper-pagination-bullet {
     margin-bottom: 5px;
   }
 
+
+
+  .banner-heading {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .banner-text {
+    width: auto;
+    padding-right: 15px;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 25px;
+  }
+
+  .swiper-slide {
+  min-height: 250px;
+  -webkit-background-size: 100% auto;
+    background-size: 100% 100%;
+  }
+
+  .banner-btn {
+    padding: 1px 9px;
+    font-weight: 400;
+    margin-right: 10px;
+  }
+  
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+  right: 10px;
+  bottom: 15px;
+  left: auto;
+  width: auto;
+}
+
 }
