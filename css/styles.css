@@ -1062,7 +1062,8 @@ button.swiper-pagination-bullet {
   .about-section, 
   .members-section,
   .work-section,
-  .services-section {
+  .services-section,
+  .features-section {
     padding: 30px 0 30px 0;
   }
 
@@ -1137,7 +1138,6 @@ button.swiper-pagination-bullet {
   .services-main-heading {
     margin-bottom: 30px;
   }
-  
   .services-item {
     width: auto;
     margin: 0 14px 20px 14px;
@@ -1154,4 +1154,28 @@ button.swiper-pagination-bullet {
     padding-right: 15px;
     padding-left: 15px;
   }
+
+  /*FEATURES*/
+  
+  .features-item {
+    width: auto;
+  }
+  .features-item:last-child {
+    margin-bottom: 0;
+  }
+  .features-item img {
+    margin-bottom: 15px;
+  }
+  .features-heading-inner {
+    font-weight: 400;
+    line-height: 18px;
+    padding-right: 15px;
+  }
+
+  .features-text {
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 12px;
+  }
+
 }
