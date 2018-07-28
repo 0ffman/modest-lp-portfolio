@@ -1060,7 +1060,8 @@ button.swiper-pagination-bullet {
   /* END FOR SECTIONS HEADING*/
 
   .about-section, 
-  .members-section {
+  .members-section,
+  .work-section {
     padding: 30px 0 30px 0;
   }
 
@@ -1117,5 +1118,17 @@ button.swiper-pagination-bullet {
   .members-item {
     width: auto;
     margin: 0 16px 18px 16px
+  }
+
+  /*WORK*/
+  .work-list {
+    margin-bottom: 25px;
+  }
+  .work-item {
+    margin-bottom: 18px;
+    width: auto;
+  }
+  .work-btn {
+    font-weight: 400;
   }
 }
