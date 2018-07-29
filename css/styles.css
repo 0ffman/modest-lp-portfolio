@@ -70,7 +70,6 @@ img {
   background-color: #e1e6ea;
 }
 
-
 /*HEADER*/
 
 .main-header {
@@ -138,9 +137,7 @@ img {
   box-sizing: border-box;
   cursor: pointer;
 }
-
 /* END HEADER*/
-
 
 /*BANNER*/
 
@@ -235,10 +232,7 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active {
   background-color: #fff;
 }
-
-
 /* END BANNER*/
-
 
 /* ABOUT*/
 
@@ -347,13 +341,9 @@ button.swiper-pagination-bullet {
   background-color: #39a493;
   color: #ffffff;
 }
-
-
 /*END ABOUT*/
 
-
 /*OUR TEAM*/
-
 .members-section {
   padding: 80px 0 100px 0;
 }
@@ -491,7 +481,7 @@ button.swiper-pagination-bullet {
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+/*END OUR TEAM*/
 
 /* WORK */
 
@@ -655,7 +645,7 @@ button.swiper-pagination-bullet {
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-
+/* END WORK */
 
 /* SERVICES */
 
@@ -725,7 +715,7 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   margin: 0;
 }
-
+/* END SERVICES*/
 
 /* FEATURES*/
 
@@ -784,7 +774,7 @@ button.swiper-pagination-bullet {
   color: #dcdfe1;
   margin: 0;
 }
-
+/*END FEATURES*/
 
 /* CONTACT */
 
@@ -923,7 +913,7 @@ button.swiper-pagination-bullet {
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
-
+/* END CONTACT*/
 
 /*FOOTER*/
 
@@ -980,11 +970,11 @@ button.swiper-pagination-bullet {
     padding-left: 15px;
     padding-right: 15px;
   }
-
+  
+  /*HEADER*/
   .main-header {
     padding: 10px 0;
   }
-
   .main-list {
     display: none;
     flex-direction: column;
@@ -996,30 +986,26 @@ button.swiper-pagination-bullet {
     background-color: #eee;
     z-index: 2;
   }
-
   .main-list li {
     margin-bottom: 3px;
   }
-
   .main-list a,
   .main-list a:hover {
     color: #000000;
   }
-
   .btn-toggle {
     display: block;
     margin-bottom: 5px;
   }
-
-
-
+  /* END HEADER*/
+  
+  /*BANNER*/
   .banner-heading {
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
     margin-bottom: 20px;
   }
-
   .banner-text {
     width: auto;
     padding-right: 15px;
@@ -1027,25 +1013,24 @@ button.swiper-pagination-bullet {
     line-height: 17px;
     margin-bottom: 25px;
   }
-
   .swiper-slide {
   min-height: 250px;
   -webkit-background-size: 100% auto;
     background-size: 100% 100%;
   }
-
   .banner-btn {
     padding: 1px 9px;
     font-weight: 400;
     margin-right: 10px;
   }
-  
   .swiper-container-horizontal>.swiper-pagination-bullets {
   right: 10px;
   bottom: 15px;
   left: auto;
   width: auto;
   }
+  /*END BANNER*/
+  
   /*FOR SECTIONS HEADING*/
   .section-heading {
     font-size: 25px;
@@ -1053,12 +1038,12 @@ button.swiper-pagination-bullet {
     margin-bottom: 20px;
     font-weight: 400;
   }
-
   .section-heading::before {
     height: 30px;
   }
   /* END FOR SECTIONS HEADING*/
-
+  
+  /*SECTIONS PADDING*/
   .about-section, 
   .members-section,
   .work-section,
@@ -1066,23 +1051,21 @@ button.swiper-pagination-bullet {
   .features-section {
     padding: 30px 0 30px 0;
   }
-
+  /*END SECTIONS PADDING*/
+  
   .about-text {
     margin: 0 0 17px 0;
     padding-right: 15px;
     font-size: 14px;
     line-height: 24px;
   }
-
   .about-columns {
     flex-direction: column;
   }
-
   .about-social {
     width: auto;
     margin-bottom: 20px;
   }
-  
   .social-links {
     width: auto;
     margin-top: 0;
@@ -1092,20 +1075,16 @@ button.swiper-pagination-bullet {
     width: 50px;
     height: 50px;
   }
-
   .about-list {
     width: auto;
   }
-
   .about-list-item {
     margin-bottom: 10px;
   }
-
   .about-list .about-list-heading {
     font-weight: 400;
     padding-right: 15px;
   }
-
   .about-list .about-list-text {
     font-size: 14px;
     line-height: 24px;
@@ -1116,7 +1095,6 @@ button.swiper-pagination-bullet {
   .members-list {
     justify-content: center;
   }
-
   .members-item {
     width: auto;
     margin: 0 16px 18px 16px;
@@ -1156,7 +1134,6 @@ button.swiper-pagination-bullet {
   }
 
   /*FEATURES*/
-  
   .features-item {
     width: auto;
   }
@@ -1171,7 +1148,6 @@ button.swiper-pagination-bullet {
     line-height: 18px;
     padding-right: 15px;
   }
-
   .features-text {
     font-size: 14px;
     line-height: 24px;
@@ -1182,7 +1158,6 @@ button.swiper-pagination-bullet {
   .contact-section {
     padding-top: 30px;
   }
-  
   .contact-heading {
     width: auto;
   }
@@ -1207,28 +1182,23 @@ button.swiper-pagination-bullet {
     line-height: 24px;
     margin: 0;
   }
-
   .contact-column form {
     position: static;
     width: auto;
     padding: 10px 10px 0 10px
   }
-
   .form-text {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
   }
-
   .form-name, .form-email {
     width: auto;
     margin-bottom: 10px;
   }
-
   .contact-column label {
     font-weight: 400;
   }
-
   .form-button-send {
     display: block;
     margin-left: auto;
@@ -1240,16 +1210,16 @@ button.swiper-pagination-bullet {
   .main-footer {
     padding: 20px 0;
   }
-
   .main-footer-row {
     justify-content: center;
     text-align: center;
     font-size: 14px;
   }
-
   .footer-social {
     margin: 10px 0;
   }
+}
 
-
+@media screen and (max-width: 1024px) {
+  
 }
