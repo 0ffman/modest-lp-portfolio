@@ -1053,6 +1053,7 @@ button.swiper-pagination-bullet {
   }
   /*END SECTIONS PADDING*/
   
+  /* ABOUT*/
   .about-text {
     margin: 0 0 17px 0;
     padding-right: 15px;
@@ -1282,6 +1283,33 @@ button.swiper-pagination-bullet {
     padding: 50px 0 50px 0;
   }
   /*END SECTIONS PADDING*/
+
+  /* ABOUT*/
+  .about-text {
+    margin: 0 0 17px 0;
+    padding-right: 23px;
+  }
+  .about-social {
+    margin-bottom: 20px;
+  }
+  
+  .social-links {
+    justify-content: flex-start;
+    width: auto;
+  }
+  .social-btn {
+    margin-right: 3px;
+  }
+  .about-list-item {
+    margin-bottom: 10px;
+  }
+  .about-list .about-list-heading {
+    font-weight: 400;
+    padding-right: 15px;
+  }
+  .about-list .about-list-text {
+    padding-right: 20px;
+  }
 
 
 
