@@ -349,7 +349,7 @@ button.swiper-pagination-bullet {
 }
 
 .members-list {
-  margin: 0 -16px;
+  margin: 0 -15px;
   padding: 0;
   list-style: none;
   display: -webkit-box;
@@ -499,7 +499,7 @@ button.swiper-pagination-bullet {
 }
 
 .work-list {
-  margin: 0 -16px;
+  margin: 0 -15px;
   margin-bottom: 30px;
   padding: 0;
   list-style: none;
@@ -733,7 +733,7 @@ button.swiper-pagination-bullet {
 }
 
 .features-list {
-  margin: 0 -16px;
+  margin: 0 -15px;
   margin-bottom: 30px;
   padding: 0;
   list-style: none;
