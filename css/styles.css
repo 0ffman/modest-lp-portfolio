@@ -1220,6 +1220,71 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   
+  .container {
+    width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /*HEADER*/
+  .main-header {
+    padding: 16px 0;
+  }
+  .main-list {
+    width: auto;
+  }
+  .main-list li {
+    margin-right: 3px;
+  }
+  /* END HEADER */
+
+  /*BANNER*/
+  .banner-heading {
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .banner-text {
+    width: 605px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+  .swiper-slide {
+  min-height: 330px;
+  -webkit-background-size: 100% auto;
+    background-size: 100% 100%;
+  }
+  .banner-btn {
+    font-weight: 400;
+    margin-right: 10px;
+  }
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+  right: 95px;
+  bottom: 35px;
+  left: auto;
+  width: auto;
+  }
+  /*END BANNER*/
+
+  .section-heading {
+    font-weight: 400;
+  }
+  
+  /*SECTIONS PADDING*/
+  .about-section, 
+  .members-section,
+  .work-section,
+  .services-section,
+  .features-section {
+    padding: 50px 0 50px 0;
+  }
+  /*END SECTIONS PADDING*/
+
+
+
+
+
 }
