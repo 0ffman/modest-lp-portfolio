@@ -1236,4 +1236,20 @@ button.swiper-pagination-bullet {
     font-weight: 400;
   }
 
+  /* FOOTER*/
+  .main-footer {
+    padding: 20px 0;
+  }
+
+  .main-footer-row {
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .footer-social {
+    margin: 10px 0;
+  }
+
+
 }
