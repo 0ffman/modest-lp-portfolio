@@ -1364,4 +1364,35 @@ button.swiper-pagination-bullet {
     font-weight: 400;
   }
 
+  /*CONTACT*/ 
+  .contact-heading {
+    width: auto;
+  }
+  .contact-map {
+    margin-bottom: 50px;
+  }
+  .contact-columns {
+    padding-bottom: 50px;
+  }
+  .contact-column {
+    width: 50%;
+  }
+  .contact-heading-inner {
+    margin-bottom: 30px;
+  }
+  .contact-text {
+    margin: 0;
+  }
+  .contact-column form {
+    bottom: 110px;
+    width: 100%;
+    padding: 10px 10px 0 10px
+  }
+  .form-name, .form-email {
+    width: 170px;
+  }
+  .contact-column label {
+    font-weight: 400;
+  }
+
 }
