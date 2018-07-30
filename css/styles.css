@@ -747,7 +747,6 @@ button.swiper-pagination-bullet {
 
 .features-item {
   position: relative;
-  margin-bottom: 30px;
   width: calc(33% - 32px);
   margin: 0 16px 30px 16px;
 }
@@ -1341,6 +1340,28 @@ button.swiper-pagination-bullet {
     font-weight: 400;
   }
 
+   /*SERVICES*/
+  .services-section {
+    padding-bottom: 0;
+  }
+  .services-main-heading {
+    margin-bottom: 60px;
+  }
 
+  /*FEATURES*/
+  .features-list {
+    margin-bottom: 0;
+  }
+  .features-item {
+    margin: 0 16px 0 16px;
+  }
+
+  .features-item img {
+    margin-bottom: 30px;
+  }
+  .features-heading-inner {
+    margin: 0 0 10px 0;
+    font-weight: 400;
+  }
 
 }
