@@ -396,6 +396,7 @@ button.swiper-pagination-bullet {
   line-height: 26px;
   font-weight: 400;
   color: #8d8f92;
+  display: block;
 }
 
 .members-item:hover img {
@@ -1311,7 +1312,19 @@ button.swiper-pagination-bullet {
     padding-right: 20px;
   }
 
+  /* OUR TEAM */
+  .members-description {
+    padding: 10px 20px;
+  }
 
+  .members-description span {
+    line-height: 20px;
+  }
+  .second-list-item,
+  .second-list-link {
+    width: 35px;
+    height: 35px;
+  }
 
 
 
