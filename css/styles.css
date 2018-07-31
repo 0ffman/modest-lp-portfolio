@@ -1,5 +1,4 @@
 body {
-/*  min-width: 1160px;*/
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', Verdana, sans-serif;
@@ -70,6 +69,7 @@ img {
   background-color: #e1e6ea;
 }
 
+
 /*HEADER*/
 
 .main-header {
@@ -84,6 +84,8 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
 }
@@ -134,10 +136,14 @@ img {
   background-image: url(../img/menu-icon.png);
   background-repeat: no-repeat;
   border: none;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   cursor: pointer;
 }
+
+
 /* END HEADER*/
+
 
 /*BANNER*/
 
@@ -232,7 +238,10 @@ button.swiper-pagination-bullet {
 .swiper-pagination-bullet-active {
   background-color: #fff;
 }
+
+
 /* END BANNER*/
+
 
 /* ABOUT*/
 
@@ -341,9 +350,13 @@ button.swiper-pagination-bullet {
   background-color: #39a493;
   color: #ffffff;
 }
+
+
 /*END ABOUT*/
 
+
 /*OUR TEAM*/
+
 .members-section {
   padding: 80px 0 100px 0;
 }
@@ -482,7 +495,10 @@ button.swiper-pagination-bullet {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+
 /*END OUR TEAM*/
+
 
 /* WORK */
 
@@ -646,7 +662,10 @@ button.swiper-pagination-bullet {
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
+
+
 /* END WORK */
+
 
 /* SERVICES */
 
@@ -716,7 +735,10 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   margin: 0;
 }
+
+
 /* END SERVICES*/
+
 
 /* FEATURES*/
 
@@ -774,7 +796,10 @@ button.swiper-pagination-bullet {
   color: #dcdfe1;
   margin: 0;
 }
+
+
 /*END FEATURES*/
+
 
 /* CONTACT */
 
@@ -913,7 +938,10 @@ button.swiper-pagination-bullet {
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
+
+
 /* END CONTACT*/
+
 
 /*FOOTER*/
 
@@ -964,19 +992,20 @@ button.swiper-pagination-bullet {
 }
 
 @media screen and (max-width: 767px) {
-  
   .container {
     width: 320px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  
   /*HEADER*/
   .main-header {
     padding: 10px 0;
   }
   .main-list {
     display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     width: 40%;
     padding: 10px;
@@ -998,7 +1027,6 @@ button.swiper-pagination-bullet {
     margin-bottom: 5px;
   }
   /* END HEADER*/
-  
   /*BANNER*/
   .banner-heading {
     font-size: 20px;
@@ -1014,8 +1042,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 25px;
   }
   .swiper-slide {
-  min-height: 250px;
-  -webkit-background-size: 100% auto;
+    min-height: 250px;
     background-size: 100% 100%;
   }
   .banner-btn {
@@ -1024,13 +1051,12 @@ button.swiper-pagination-bullet {
     margin-right: 10px;
   }
   .swiper-container-horizontal>.swiper-pagination-bullets {
-  right: 10px;
-  bottom: 15px;
-  left: auto;
-  width: auto;
+    right: 10px;
+    bottom: 15px;
+    left: auto;
+    width: auto;
   }
   /*END BANNER*/
-  
   /*FOR SECTIONS HEADING*/
   .section-heading {
     font-size: 25px;
@@ -1042,9 +1068,8 @@ button.swiper-pagination-bullet {
     height: 30px;
   }
   /* END FOR SECTIONS HEADING*/
-  
   /*SECTIONS PADDING*/
-  .about-section, 
+  .about-section,
   .members-section,
   .work-section,
   .services-section,
@@ -1052,7 +1077,6 @@ button.swiper-pagination-bullet {
     padding: 30px 0 30px 0;
   }
   /*END SECTIONS PADDING*/
-  
   /* ABOUT*/
   .about-text {
     margin: 0 0 17px 0;
@@ -1061,6 +1085,9 @@ button.swiper-pagination-bullet {
     line-height: 24px;
   }
   .about-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .about-social {
@@ -1091,16 +1118,16 @@ button.swiper-pagination-bullet {
     line-height: 24px;
     padding-right: 20px;
   }
-
   /* OUR TEAM*/
   .members-list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .members-item {
     width: auto;
     margin: 0 16px 18px 16px;
   }
-
   /*WORK*/
   .work-list {
     margin-bottom: 25px;
@@ -1112,7 +1139,6 @@ button.swiper-pagination-bullet {
   .work-btn {
     font-weight: 400;
   }
-
   /*SERVICES*/
   .services-main-heading {
     margin-bottom: 30px;
@@ -1133,7 +1159,6 @@ button.swiper-pagination-bullet {
     padding-right: 15px;
     padding-left: 15px;
   }
-
   /*FEATURES*/
   .features-item {
     width: auto;
@@ -1154,8 +1179,7 @@ button.swiper-pagination-bullet {
     line-height: 24px;
     padding-right: 12px;
   }
-
-  /*CONTACT*/ 
+  /*CONTACT*/
   .contact-section {
     padding-top: 30px;
   }
@@ -1166,6 +1190,9 @@ button.swiper-pagination-bullet {
     margin-bottom: 30px;
   }
   .contact-columns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 40px;
   }
@@ -1189,11 +1216,17 @@ button.swiper-pagination-bullet {
     padding: 10px 10px 0 10px
   }
   .form-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 0;
   }
-  .form-name, .form-email {
+  .form-name,
+  .form-email {
     width: auto;
     margin-bottom: 10px;
   }
@@ -1206,12 +1239,13 @@ button.swiper-pagination-bullet {
     margin-right: auto;
     font-weight: 400;
   }
-
   /* FOOTER*/
   .main-footer {
     padding: 20px 0;
   }
   .main-footer-row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     font-size: 14px;
@@ -1221,14 +1255,12 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
   .container {
     width: 768px;
     padding-left: 15px;
     padding-right: 15px;
   }
-
   /*HEADER*/
   .main-header {
     padding: 16px 0;
@@ -1240,7 +1272,6 @@ button.swiper-pagination-bullet {
     margin-right: 3px;
   }
   /* END HEADER */
-
   /*BANNER*/
   .banner-heading {
     font-size: 26px;
@@ -1254,8 +1285,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 30px;
   }
   .swiper-slide {
-  min-height: 330px;
-  -webkit-background-size: 100% auto;
+    min-height: 330px;
     background-size: 100% 100%;
   }
   .banner-btn {
@@ -1263,19 +1293,17 @@ button.swiper-pagination-bullet {
     margin-right: 10px;
   }
   .swiper-container-horizontal>.swiper-pagination-bullets {
-  right: 95px;
-  bottom: 35px;
-  left: auto;
-  width: auto;
+    right: 95px;
+    bottom: 35px;
+    left: auto;
+    width: auto;
   }
   /*END BANNER*/
-
   .section-heading {
     font-weight: 400;
   }
-  
   /*SECTIONS PADDING*/
-  .about-section, 
+  .about-section,
   .members-section,
   .work-section,
   .services-section,
@@ -1283,7 +1311,6 @@ button.swiper-pagination-bullet {
     padding: 50px 0 50px 0;
   }
   /*END SECTIONS PADDING*/
-
   /* ABOUT*/
   .about-text {
     margin: 0 0 17px 0;
@@ -1292,8 +1319,9 @@ button.swiper-pagination-bullet {
   .about-social {
     margin-bottom: 20px;
   }
-  
   .social-links {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
     width: auto;
   }
@@ -1310,12 +1338,10 @@ button.swiper-pagination-bullet {
   .about-list .about-list-text {
     padding-right: 20px;
   }
-
   /* OUR TEAM */
   .members-description {
     padding: 10px 20px;
   }
-
   .members-description span {
     line-height: 20px;
   }
@@ -1324,7 +1350,6 @@ button.swiper-pagination-bullet {
     width: 35px;
     height: 35px;
   }
-
   /*WORK*/
   .work-heading {
     margin-bottom: 45px;
@@ -1339,15 +1364,13 @@ button.swiper-pagination-bullet {
     padding: 20px 0 20px 20px;
     font-weight: 400;
   }
-
-   /*SERVICES*/
+  /*SERVICES*/
   .services-section {
     padding-bottom: 0;
   }
   .services-main-heading {
     margin-bottom: 60px;
   }
-
   /*FEATURES*/
   .features-list {
     margin-bottom: 0;
@@ -1355,7 +1378,6 @@ button.swiper-pagination-bullet {
   .features-item {
     margin: 0 16px 0 16px;
   }
-
   .features-item img {
     margin-bottom: 30px;
   }
@@ -1363,8 +1385,7 @@ button.swiper-pagination-bullet {
     margin: 0 0 10px 0;
     font-weight: 400;
   }
-
-  /*CONTACT*/ 
+  /*CONTACT*/
   .contact-heading {
     width: auto;
   }
@@ -1388,11 +1409,12 @@ button.swiper-pagination-bullet {
     width: 100%;
     padding: 10px 10px 0 10px
   }
-  .form-name, .form-email {
+  .form-name,
+  .form-email {
     width: 170px;
   }
   .contact-column label {
     font-weight: 400;
   }
-
 }
+
