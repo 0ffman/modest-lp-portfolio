@@ -505,10 +505,12 @@ button.swiper-pagination-bullet {
 .work-section {
   padding: 80px 0 60px 0;
   background-color: #3a454d;
+  text-align: center;
 }
 
 .work-heading {
   color: #fff;
+  text-align: left;
 }
 
 .work-section .section-heading::before {
@@ -640,11 +642,9 @@ button.swiper-pagination-bullet {
 }
 
 .work-btn {
-  display: block;
+  display: inline-block;
   padding: 6px 19px;
-  width: 151px;
-  margin-left: auto;
-  margin-right: auto;
+  min-width: 151px;
   color: #ffffff;
   border: 2px solid #ffffff;
   text-transform: uppercase;
